@@ -1,0 +1,1415 @@
+<html>
+    <head>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="https://use.fontawesome.com/a6f0361695.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MG4YLYV252"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MG4YLYV252');
+</script>
+
+
+
+    </head>
+    <style>
+  .card-4{
+  background: white;
+  width: 300px;
+  border: 5px solid palevioletred;
+  padding: 70px;
+  margin: 70px;
+  
+  
+  }
+ .grid-item6:hover .overlay {
+  opacity: 1;
+}
+.grid-item7:hover .overlay {
+  opacity: 1;
+}
+.grid-item6 {
+  position: relative;
+  width: 70%;
+  max-width: 300px; 
+}
+.grid-item7 {
+  position: relative;
+  width: 70%;
+  max-width: 300px; 
+  column-gap: 10px;
+  row-gap: 15px;
+  
+}
+
+.grid-item7 p{
+  text-align: center;
+}
+
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(7, 7, 7);
+  background: palevioletred ;
+  color: #f1f1f1; 
+  width: 130%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+.grid-cont {
+  height: 80%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:white;
+  padding: 50px;
+  justify-content: space-evenly;
+}
+.grid-cont2 {
+  height: 80%;
+  display: grid;
+  grid-template-columns: auto auto ;
+  background-color:lightcyan;
+  padding: 50px;
+
+ 
+  
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto ;
+  
+  padding: 10px;
+}
+header {
+  background-color: pink;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+    .nav {
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 15;
+    
+}
+
+.nav-list {
+    display: flex;
+    width: 100%;
+    
+   
+}
+ul {
+
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 15px 55px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a:hover {
+  background-color: pink;
+  color: black;
+  
+}
+.default{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.grid-container2 {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-container3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+}
+.grid-item3 {
+  color: rgb(245, 148, 164);
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+.grid-item2 {
+  color: rgb(245, 148, 164);
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  
+  padding: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+div.polaroid2 {
+  width: 500px;
+  height: 430px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 40px;
+}
+div.polaroid {
+  width: 309px;
+  height: 230px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 40px;
+}
+.button2 {background-color: palevioletred; border-radius: 12px;} /* Rewiev */
+.button3{ background-color: palevioletred ; border-radius: 12px;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+ 
+.img{
+    border-radius: 20px;
+
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+ 
+}
+.img-tamari{
+    justify-self: stretch;
+    padding:50px ;
+
+}
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0 2rem;
+    background: palevioletred;
+}
+
+.FunFacts{
+  display: flex;
+    flex-direction: column;
+   
+    width: 100%;
+    height: 90vh;
+    padding: 0 10rem;
+    background: lightcyan;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 20%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    background: #5cb3fd;
+}
+
+.projects {
+ 
+    background: palevioletred;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);
+    border-radius: 2px;
+
+}
+.projects a{
+    text-decoration: none;
+    color: gainsboro;
+
+}
+.projects-title {
+    font-size: 2rem;
+    padding: 2rem 0.5rem;
+}
+.project-image {
+    height: calc(100% - 6.8rem);
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+.contactme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0 2rem;
+    background:lightcyan;}
+
+.contact-links{
+    
+    background:lightcyan;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 40px;
+  row-gap: 15px;
+    
+    top: 0;
+    left: 0;
+    
+   
+
+    
+}
+.education {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100vh;
+    padding: 0 2rem;
+    background: white;
+}
+section.education {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.experiences{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 150vh;
+    padding: 0 2rem;
+    background: palevioletred;
+}
+section.experiences {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0 2rem;
+    background: lightcyan;
+}
+
+.Portfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    padding: 0 2rem;
+    background: palevioletred;
+}
+.review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 80vh;
+    padding: 0 2rem;
+    background: palevioletred;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 5vh;
+    padding: 0 2rem;
+    background: palevioletred;
+}
+#feedback {
+  max-width: 60%;
+  width: 100%;
+  margin: 10px auto;
+  padding: 20px;
+  border: solid 1px #f1f1f1;
+  background: #fbfbfb;
+  box-shadow: #e6e6e6 0 0 4px ;
+  border-radius: 0.25rem;
+}
+
+@media (max-width: 720px) {
+  #feedback{
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  #feedback{
+    padding: 10px;
+  }
+}
+
+#fh2{
+ padding: 2px 15px;
+ color: white;
+ text-align: center;
+ 
+ 
+}
+
+@media (max-width: 400px) {
+  #fh2{
+    font-size: 20px;
+  }
+}
+
+
+#fh6 {
+ padding: 2px 15px;
+ color: white;
+ text-align: center;
+ font-weight: normal;
+}
+
+@media (max-width: 400px) {
+  #fh6{
+    font-size: 12px;
+  }
+}
+
+.pinfo {
+ margin: 8px auto;
+ font-weight: bold;
+ line-height: 1.5;
+ color: #0d0d0d;
+}
+.form-group {
+  margin-bottom: 1rem;
+}
+  
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.25;
+  font-weight: bold;
+  color: pink;
+  background-color: #fff;
+  background-image: none;
+  -webkit-background-clip: padding-box;
+          background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+}
+
+.form-control::-ms-expand {
+  background-color: transparent;
+  border: 0;
+}
+
+.form-control:focus {
+  color: palevioletred;
+  background-color: white;
+  border-color: #5cb3fd;
+  outline: none;
+}
+
+.form-control::-webkit-input-placeholder {
+  color: #F34949;
+  opacity: 1;
+}
+
+.form-control::-moz-placeholder {
+  color: brown;
+  opacity: 1;
+}
+
+.form-control:-ms-input-placeholder {
+  color: blue;
+  opacity: 1;
+}
+
+.form-control::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.form-control:disabled, .form-control[readonly] {
+  background-color: red;
+  opacity: 1;
+}
+
+.form-control:disabled {
+  cursor: not-allowed;
+}
+
+select.form-control:not([size]):not([multiple]) {
+  height: calc(2.25rem + 2px);
+}
+
+select.form-control:focus::-ms-value {
+  color: green;
+  background-color: #fff;
+}
+
+.form-control-file,
+.form-control-range {
+  display: block;
+}
+
+.input-group {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.input-group .form-control {
+  position: relative;
+  z-index: 2;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  width: 1%;
+  margin-bottom: 0;
+}
+
+.input-group .form-control:focus, .input-group .form-control:active, .input-group .form-control:hover {
+  z-index: 3;
+}
+
+.input-group-addon,
+.input-group-btn,
+.input-group .form-control {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.input-group-addon:not(:first-child):not(:last-child),
+.input-group-btn:not(:first-child):not(:last-child),
+.input-group .form-control:not(:first-child):not(:last-child) {
+  border-radius: 0;
+}
+
+.input-group-addon,
+.input-group-btn {
+  white-space: nowrap;
+  vertical-align: middle;
+}
+
+.input-group-addon {
+  width: 45px;
+  padding: 0.5rem 0.75rem;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.25;
+  color: #2e2e2e;
+  text-align: center;
+  background-color: #eceeef;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+.input-group-addon.form-control-sm,
+.input-group-sm > .input-group-addon,
+.input-group-sm > .input-group-btn > .input-group-addon.btn {
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.2rem;
+}
+
+.input-group-addon.form-control-lg,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .input-group-addon.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  border-radius: 0.3rem;
+}
+
+.input-group-addon input[type="radio"],
+.input-group-addon input[type="checkbox"] {
+  margin-top: 0;
+}
+
+.input-group .form-control:not(:last-child),
+.input-group-addon:not(:last-child),
+.input-group-btn:not(:last-child) > .btn,
+.input-group-btn:not(:last-child) > .btn-group > .btn,
+.input-group-btn:not(:last-child) > .dropdown-toggle,
+.input-group-btn:not(:first-child) > .btn:not(:last-child):not(.dropdown-toggle),
+.input-group-btn:not(:first-child) > .btn-group:not(:last-child) > .btn {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.input-group-addon:not(:last-child) {
+  border-right: 0;
+}
+
+.input-group .form-control:not(:first-child),
+.input-group-addon:not(:first-child),
+.input-group-btn:not(:first-child) > .btn,
+.input-group-btn:not(:first-child) > .btn-group > .btn,
+.input-group-btn:not(:first-child) > .dropdown-toggle,
+.input-group-btn:not(:last-child) > .btn:not(:first-child),
+.input-group-btn:not(:last-child) > .btn-group:not(:first-child) > .btn {
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.form-control + .input-group-addon:not(:first-child) {
+  border-left: 0;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: normal;
+  line-height: 1.25;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  border: 1px solid transparent;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:focus, .btn:hover {
+  text-decoration: none;
+}
+
+.btn:focus, .btn.focus {
+  outline: 0;
+  -webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.25);
+          box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.25);
+}
+
+.btn.disabled, .btn:disabled {
+  cursor: not-allowed;
+  opacity: .65;
+}
+
+.btn:active, .btn.active {
+  background-image: none;
+}
+
+a.btn.disabled,
+fieldset[disabled] a.btn {
+  pointer-events: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: palevioletred;
+  border-color: palevioletred;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #025aa5;
+  border-color: #01549b;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);
+          box-shadow: 0 0 0 2px rgba(2, 117, 216, 0.5);
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+  background-color: #0275d8;
+  border-color: #0275d8;
+}
+
+.btn-primary:active, .btn-primary.active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #025aa5;
+  background-image: none;
+  border-color: #01549b;
+}
+.row2{
+    font-size:16px 
+
+}
+.row4{
+    font-size:16px 
+    
+}
+.row4 span{
+    color: black;
+}
+.row1{
+    font-size:24px 
+}
+
+.row1 h3{
+    color: palevioletred;
+}
+.row1 div{
+    color:gray;
+}
+
+.row3 h3{
+    color: black;
+    font-size: 32px;
+    font-weight: 100;
+}
+.row3 p{
+    color:whitesmoke;
+    font-size: 16px;
+}
+
+.copyright{
+    text-align: center;
+}
+.contact .icons {
+    display: inline-flex;
+    align-items:center;
+    justify-content:center;
+    height: 3em;
+    width: 1em;
+    background-color: white;
+    color: black;
+    border-radius: 100%;
+    font-size: 2em;
+    margin-right: 1.5rem;
+
+.grid-myitem {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  position: relative;
+}
+
+
+    </style>
+
+
+<body>
+<nav id="navbar" class="nav">
+    <ul class="nav-list">
+        <li>    
+            <a href="#default" > Tamar Okropiridze </a> 
+        </li>
+        <li>    
+            <a href="#aboutme">About Me </a>
+        </li>
+       
+        <li>    
+            <a href="#contactme" >Contact Me</a>
+        </li>
+        <li>    
+            <a href="#education" >Education</a>
+        </li>
+        <li>    
+            <a href="#experiences" >Experiences</a>
+        </li>
+        <li>    
+            <a href="#skills" >Skills</a>
+        </li>
+        <li>
+          <a href="#Portfolio"> Portfolio</a>
+        </li>
+        <li>
+          <a href="#Hobbies">Hobbies</a>
+        </li>
+
+        <li>
+          <a href="#FunFacts">Fun Facts </a>
+        </li>
+        <li>    
+            <a class="button button2" href="#review">Write A Review  </a>
+        </li>
+    </ul>
+</nav>
+
+<section id="default" class="default">
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="Untitled-11.png" alt="tamarokropiridze" class="img-tamari" >
+        </div>
+        <div class="grid-item">
+        <h1 style="font-size:50px" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="text-shadow: pink;">
+            <br> <br> <b><i>
+             Why Me <br></b></i>
+             </h1>
+        <p style="font-size:20px  ;" style="text-shadow: pink;" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"> <em>
+            Over the years, I have acquired relevant skills and experience, which I shall bring to your organization. <br>
+I have also worked tirelessly on my communication abilities 
+and teamwork skills, <br> which I will put to use in my future career, 
+which would be in your organization if I am selected for the position.<br><br></em>
+
+         <i> I believe that my experience with technology, 
+          specifically in the web design space,<br>
+           make me the best match for this position. </i> 
+        </p>
+        <a class="button button3" href="#contactme">Contact Me</a>
+        <br> <br>
+        <h1  style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="text-shadow: pink;" ><i>
+            Latest Works <br></i>
+
+           </h1>
+           <div class="polaroid">
+           <a href="ინფორმაცია.html.html" target="_blank"> <img class="img" src="dog.jpg" width="200px" height="150px" > </a>
+           <div class="container">
+            <p style="text-align:center;"  style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"style="text-shadow: pink;">Pitbulls</p>
+           </div>
+           </div>  
+        </div>
+  
+</section>
+
+
+<section id="aboutme" class="aboutme">
+    <h2 style="font-size:50px">About Me</h2>
+    <p style="font-size:20px;"><i> Hello, I am Tamar Okropiridze. I am from Georgia . I am a begginer web developer and animator.<br>
+        If you want some extra customization for your page, you want someone to set it up the first time, or create <br> 
+        Advertising videos for yours bussines , I'm your girl!</i> </p>
+</section>
+
+
+<section id="contactme" class="contactme">
+    
+    <h2 style="font-size:50px">Work together</h2>
+    <p style="font-size:20px;"> Contact Me </p>
+
+    <article>
+      <code>
+        <div class="grid-cont2">
+          <div class="grid-item7">
+            <a href="https://www.facebook.com/nala.apbt.16/" target="_blank"  ><img src="facebook.png" width="150px" height="150px"> </a>
+            <div class="overlay">My Facebook Account</div>
+          </div>
+          <div class="grid-item7">
+            <a href="https://www.instagram.com/okropiridzetamar/" target="_blank" ><img src="instagram.png" width="150px" height="150px"> </a>
+            <div class="overlay">My Instagram Account</div>
+          </div>
+          <div class="grid-item7">
+            <a href="mailto:tamar.okropiridze.1@btu.edu.ge" ><img src="gmail.png" width="150px" height="150px"></a>
+            <div class="overlay">My Gmail Address </div>
+          </div>
+          <div class="grid-item7">
+            <a href="tel:511233789" ><img src="phone.jpg" width="150px" height="150px"></a>
+            <div class="overlay">My Phone Number</div>
+          </div>
+
+
+
+
+</div>
+
+</section>
+
+
+
+<section id="education" class="education">
+  <article>
+    <code>
+      <div class="grid">
+        <div class="grid-myitem">
+          <a href="https://btu.edu.ge/en/home-english/" target="_blank">
+          <img src="ასე.jpg" alt="Btu"  width="300px" weight="300px" align="" style= border-radius:50% ;>
+          </a>
+        </div>
+        <div class="grid-myitem">
+          <br><br><br><br>
+          <div class="row1">
+          <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="font-size:32px ;"> Bussiness and Technology University </h3>
+          <div style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"style="font-size:16px ;"> <i>Bachelor of Engineering in Informatics </i></div>
+    
+          </div>
+          <div class="row2"> 
+            <span class="rowss" style="font-family: 'Courier New', Courier, monospace;" style="font-size:16px ;"> <br><br><br> September 2020 - ....   </span>
+        </div>
+        </div>
+
+
+        <div class="grid-myitem">
+          <a href="https://www.facebook.com/სსიპ-ქ-გორის-8-საჯარო-სკოლა-1670000116570175" target="_blank">
+          <img src="სკოლა.png" alt="სკოლა"  width="300px" weight="300px" align="" style= border-radius:50% ;>
+          </a>
+        </div>
+        <div class="grid-myitem">
+          <br><br><br>
+          <div class="row1">
+            <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"style="font-size:32px ;"> Gori 8th Public School</h3>
+            <div style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"style="font-size:16px ;"> <i> Educations</i> </div>
+          </div>
+          <div class="row2"> 
+            <span class="rowss" style="font-family:'Courier New', Courier, monospace;" style="font-size:16px ;"> <br><br><br><br> September 2002 - May 2020   </span>
+        </div>
+        </div>
+      </div>
+
+
+</section>
+
+
+<section id="experiences" class="experiences">
+
+    <div class="grid-container3">
+      <article>
+      <code>
+      <div class="grid">
+        <div class="grid-myitem">
+          <a href="https://developers.google.com/womentechmakers" target="_blank">
+          <img src="woman.jpg" alt="woman"  width="150px" weight="150px" align="" style= border-radius:50% ;>
+          </a>
+        </div>
+        <div class="grid-myitem">
+          
+          <div class="row3">
+            <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="font-size:32px;"> Women Techmakers  </h3>
+            <hr>
+            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="font-size:16px;"><i>GDG TBILISI and Google</i> </p>
+    
+          </div>
+          <div class="row4"> 
+            <span class="rowss" style="font-family: 'Courier New', Courier, monospace;" style="font-size:16px ;"> 2017  </span>
+        </div>
+        </div>
+
+
+        <div class="grid-myitem">
+          <a href="https://developers.google.com/womentechmakers" target="_blank">
+          <img src="woman.jpg" alt="woman"  width="150px" weight="150px" align="" style= border-radius:50% ;>
+          </a>
+        </div>
+        <div class="grid-myitem">
+          
+          <div class="row3">
+            <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="font-size:32px;"> Women Techmakers  </h3>
+            <hr>
+            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="font-size:16px;"><i>GDG TBILISI and Google</i> </p>
+    
+          </div>
+          <div class="row4"> 
+            <span class="rowss" style="font-family: 'Courier New', Courier, monospace;" style="font-size:16px ;"> 2018  </span>
+        </div>
+        </div>
+
+
+        <div class="grid-myitem">
+          <a href="https://www.facebook.com/FutureDiplomatsClub" target="_blank">
+          <img src="გლობალური.png" alt="გლობალური"  width="150px" weight="150px" align="" style= border-radius:50% ;>
+          </a>
+        </div>
+        <div class="grid-myitem">
+          
+          <div class="row3">
+            <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="font-size:32px;"> Global Challenges Forum  </h3>
+            <hr>
+            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="font-size:16px;"><i> Future Diplomats' Club and Free University</i> </p>
+    
+          </div>
+          <div class="row4"> 
+            <span class="rowss" style="font-family: 'Courier New', Courier, monospace;" style="font-size:16px ;"> 2018  </span>
+        </div>
+        </div>
+
+
+
+        <div class="grid-myitem">
+          <a href="https://www.facebook.com/EuropeanInitiators/" target="_blank">
+          <img src="ეთიკა.jpg" alt="Ethic"  width="150px" weight="150px" align="" style= border-radius:50% ;>
+          </a>
+        </div>
+        <div class="grid-myitem">
+          
+          <div class="row3">
+            <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="font-size:32px;">  Political ethics   </h3>
+            <hr>
+            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="font-size:16px;"> <i> Europe-Georgia Institute </i></p>
+    
+          </div>
+          <div class="row4"> 
+            <span class="rowss" style="font-family: 'Courier New', Courier, monospace;" style="font-size:16px ;"> 2018  </span>
+        </div>
+        </div>
+
+
+
+        <div class="grid-myitem">
+          <a href="https://www.intel.com/content/www/us/en/homepage.html" target="_blank">
+          <img src="intel.png" alt="intel"  width="150px" weight="150px" align="" style= border-radius:50% ;>
+          </a>
+        </div>
+        <div class="grid-myitem">
+          
+          <div class="row3">
+            <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="font-size:32px;"> Innovative education</h3>
+            <hr>
+            <p  style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="font-size:16px;"> <i> 36-hour training course </i> </p>
+    
+          </div>
+          <div class="row4"> 
+            <span class="rowss" style="font-family: 'Courier New', Courier, monospace;" style="font-size:16px ;"> 2019  </span>
+        </div>
+        </div>
+
+
+        <div class="grid-myitem">
+          <a href="https://www.facebook.com/SDFY2019/?ref=page_internal" target="_blank">
+          <img src="განვითარება.jpg" alt="forum"  width="150px" weight="150px" align="" style= border-radius:50% ;>
+          </a>
+        </div>
+        <div class="grid-myitem">
+          
+          <div class="row3">
+            <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="font-size:32px;"> Sustainable development</h3>
+            <hr>
+            <p  style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="font-size:16px;"><i> Head of the Committee </i> </p>
+
+    
+          </div>
+          <div class="row4"> 
+            <span class="rowss" style="font-family: 'Courier New', Courier, monospace;" style="font-size:16px ;"> 2019  </span>
+        </div>
+        </div>
+
+
+
+        <div class="grid-myitem">
+          <a href="https://www.life-global.org" target="_blank">
+          <img src="hp.png" alt="hp"  width="150px" weight="150px" align="" style= border-radius:50% ;>
+          </a>
+        </div>
+        <div class="grid-myitem">
+          
+          <div class="row3">
+            <h3 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="font-size:32px;"> HP Life  </h3>
+            <hr>
+            <p style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;" style="font-size:16px;"> <i> Online Course </i> </p>
+
+    
+          </div>
+          <div class="row4"> 
+            <span class="rowss" style="font-family: 'Courier New', Courier, monospace;" style="font-size:16px ;"> 2021  </span>
+        </div>
+        </div>
+</section>
+
+
+
+<section id="skills" class="skills">
+    <div>
+    <h2 style="font-size:50px">Skills</h2>
+    <p style="font-size:20px;"> Programming languages & Programs</p>
+    </div>
+    <div class="contact-links" >
+        <?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg   width="70.279px" height="70.279px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 511.997 511.997" style="enable-background:new 0 0 511.997 511.997;" xml:space="preserve">
+<path style="fill:#DD512A;" d="M38.238,0c-4.706,0-8.212,3.835-7.794,8.521l39.671,444.978c0.418,4.687,4.468,9.552,9.004,10.811
+	l168.344,46.742c4.535,1.259,11.954,1.259,16.49,0.003l168.856-46.819c4.535-1.258,8.59-6.122,9.007-10.808L481.553,8.521
+	C481.974,3.835,478.464,0,473.758,0H38.238z M397.068,102.054c-0.375,4.18-1.023,11.437-1.441,16.124l-1.045,11.675
+	c-0.421,4.685-1.02,11.386-1.336,14.889c-0.315,3.504-0.614,6.371-0.669,6.371c-0.053,0-3.948,0-8.653,0H264.554
+	c-4.706,0-8.595,0-8.646,0s-3.944,0-8.65,0H184.39c-4.706,0-8.212,3.835-7.794,8.521l3.667,40.99
+	c0.418,4.685,4.612,8.521,9.317,8.521h57.679c4.706,0,8.598,0,8.65,0s3.941,0,8.646,0h99.142c4.706,0,11.988,0,16.182,0
+	c4.191,0,7.312,3.421,6.932,7.601c-0.382,4.18-1.034,11.439-1.451,16.124L373.569,365.02c-0.421,4.687-0.953,10.674-1.182,13.306
+	c-0.234,2.63-4.134,5.811-8.669,7.069l-99.474,27.582c-4.535,1.256-8.302,2.296-8.373,2.312c-0.07,0.015-3.836-1.003-8.373-2.26
+	l-99.58-27.632c-4.535-1.258-8.587-6.122-9.004-10.809l-6.41-71.945c-0.418-4.687,3.092-8.522,7.798-8.522h9.088
+	c4.706,0,12.406,0,17.111,0h13.552c4.706,0,8.896,3.835,9.317,8.522l2.514,28.164c0.418,4.687,4.475,9.524,9.019,10.751
+	l46.579,12.579c4.541,1.227,8.275,2.231,8.296,2.231c0.021,0,3.753-1.006,8.296-2.233l46.663-12.609
+	c4.541-1.227,8.602-6.066,9.023-10.751l5.06-56.427c0.421-4.687-3.085-8.522-7.791-8.522h-52.474c-4.706,0-8.595,0-8.646,0
+	s-3.944,0-8.65,0H137.765c-4.706,0-8.896-3.836-9.314-8.521l-12.416-139.126c-0.418-4.687-1.066-11.942-1.441-16.124
+	c-0.371-4.18,3.172-7.601,7.878-7.601h124.787c4.706,0,8.598,0,8.65,0s3.941,0,8.646,0h124.636
+	C393.896,94.452,397.441,97.872,397.068,102.054z"/>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg  width="70.279px" height="70.279px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<circle style="fill:#F33052;" cx="256" cy="256" r="256"/>
+<g>
+	<path style="fill:#FFFFFF;" d="M184.512,271.52h20.64v3.728c0,15.072-2.752,24.832-8.256,29.248s-17.664,6.624-36.512,6.624
+		c-21.392,0-34.544-3.488-39.472-10.464c-4.928-7.008-7.376-25.664-7.376-56.064c0-17.888,3.328-29.648,10-35.28
+		c6.672-5.632,20.608-8.448,41.84-8.448c15.456,0,25.76,2.32,30.96,6.944c5.184,4.64,7.776,13.824,7.776,27.6l0.08,2.448h-20.64
+		v-2.768c0-7.088-1.328-11.648-4-13.632s-8.784-2.976-18.304-2.976c-12.768,0-20.416,1.568-22.992,4.672
+		c-2.576,3.12-3.856,12.384-3.856,27.792c0,20.752,1.152,33.024,3.456,36.832c2.32,3.808,9.744,5.712,22.336,5.712
+		c10.224,0,16.848-1.04,19.888-3.168c3.04-2.112,4.56-6.784,4.56-13.968L184.512,271.52z"/>
+	<path style="fill:#FFFFFF;" d="M298.512,233.408h-20.096c-0.096-0.992-0.16-1.744-0.16-2.224c-0.464-6.096-1.808-9.92-4.032-11.488
+		c-2.224-1.552-7.472-2.336-15.712-2.336c-9.744,0-16.112,0.896-19.088,2.688c-3.008,1.792-4.48,5.6-4.48,11.36
+		c0,6.832,1.216,10.928,3.648,12.304c2.432,1.392,10.48,2.432,24.128,3.184c16.16,0.896,26.592,3.2,31.344,6.912
+		c4.72,3.696,7.088,11.408,7.088,23.088c0,14.4-2.784,23.696-8.336,27.904c-5.568,4.224-17.808,6.32-36.752,6.32
+		c-17.04,0-28.352-2.064-33.936-6.192s-8.368-12.48-8.368-25.088l-0.08-3.968h20l0.08,2.32c0,7.568,1.328,12.192,3.968,13.888
+		c2.656,1.68,9.872,2.528,21.68,2.528c9.184,0,15.056-0.976,17.632-2.944c2.528-1.952,3.808-6.48,3.808-13.568
+		c0-5.248-0.976-8.736-2.912-10.448s-6.096-2.768-12.496-3.12l-11.36-0.72c-17.136-0.992-28.112-3.392-32.864-7.136
+		c-4.768-3.76-7.152-11.824-7.152-24.224c0-12.656,2.88-21.072,8.624-25.28c5.728-4.224,17.2-6.32,34.4-6.32
+		c16.32,0,27.28,1.92,32.944,5.792c5.68,3.856,8.496,11.408,8.496,22.624v4.144H298.512z"/>
+	<path style="fill:#FFFFFF;" d="M395.856,233.408H375.76c-0.112-0.992-0.16-1.744-0.16-2.224c-0.464-6.096-1.824-9.92-4.048-11.488
+		c-2.224-1.552-7.472-2.336-15.712-2.336c-9.728,0-16.112,0.896-19.088,2.688s-4.48,5.6-4.48,11.36
+		c0,6.832,1.216,10.928,3.664,12.304c2.416,1.392,10.464,2.432,24.128,3.184c16.144,0.896,26.592,3.2,31.328,6.912
+		s7.088,11.408,7.088,23.088c0,14.4-2.768,23.696-8.336,27.904c-5.568,4.224-17.808,6.32-36.768,6.32
+		c-17.024,0-28.336-2.064-33.936-6.192c-5.584-4.128-8.368-12.48-8.368-25.088l-0.08-3.968h20.016l0.08,2.32
+		c0,7.568,1.312,12.192,3.968,13.888c2.64,1.68,9.856,2.528,21.664,2.528c9.2,0,15.072-0.976,17.632-2.944
+		c2.528-1.952,3.808-6.48,3.808-13.568c0-5.248-0.976-8.736-2.912-10.448c-1.92-1.712-6.096-2.768-12.496-3.12l-11.36-0.72
+		c-17.136-0.992-28.096-3.392-32.864-7.136c-4.768-3.76-7.136-11.824-7.136-24.224c0-12.656,2.864-21.072,8.608-25.28
+		c5.728-4.224,17.216-6.32,34.4-6.32c16.32,0,27.296,1.92,32.96,5.792c5.664,3.856,8.496,11.408,8.496,22.624L395.856,233.408
+		L395.856,233.408z"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
+
+        <svg width="70.279px" height="70.279px" viewBox="0 123.30600000000001 595.279 595.279" xmlns="http://www.w3.org/2000/svg"><radialGradient id="a" cx="-183.69" cy="328.972" r=".76" gradientTransform="matrix(545.6736 0 0 528.3113 100439.305 -173525.125)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#34364e" stop-opacity=".98"/><stop offset="1" stop-color="#0c0824"/></radialGradient><path d="M24.803 155.549h545.674v530.792H24.803V155.549z" fill="url(#a)"/><path d="M24.803 155.549h545.674v530.792H24.803V155.549zM0 711.145h595.28V130.746H0v580.399zm401.318-342.287c-19.595 0-26.291 9.921-26.291 18.106 0 8.929 4.464 15.13 30.756 28.772 38.941 18.851 51.095 36.957 51.095 63.497 0 39.685-30.26 61.016-71.186 61.016-21.579 0-40.182-4.465-50.847-10.665-1.736-.744-1.984-1.984-1.984-3.969v-36.461c0-2.48 1.24-3.225 2.977-1.984 15.626 10.17 33.484 14.634 49.854 14.634 19.595 0 27.78-8.185 27.78-19.347 0-8.929-5.705-16.866-30.757-29.764-35.221-16.866-49.854-33.98-49.854-62.504 0-31.997 25.052-58.536 68.457-58.536 21.331 0 36.213 3.225 44.398 6.945 1.984 1.24 2.48 3.224 2.48 4.96v33.98c0 1.984-1.24 3.225-3.721 2.48-10.913-6.943-27.035-11.16-43.157-11.16zm-213.309 29.516c5.705.496 10.17.496 20.091.496 29.021 0 56.304-10.169 56.304-49.606 0-31.5-19.595-47.375-52.583-47.375-9.921 0-19.347.496-23.812.744v95.741zM143.86 266.668c0-1.736 3.473-2.977 5.456-2.977 15.875-.744 39.438-1.24 63.993-1.24 68.705 0 95.492 37.701 95.492 85.82 0 63-45.638 90.036-101.693 90.036-9.425 0-12.649-.496-19.347-.496v95.245c0 1.984-.744 2.976-2.976 2.976h-37.949c-1.984 0-2.977-.744-2.977-2.976V266.668z" fill="#31c5f0"/></svg>
+        <svg width="70.279px" height="70.279px" viewBox="0 123.30600000000001 595.279 595.279" xmlns="http://www.w3.org/2000/svg"><radialGradient id="a" cx="-183.69" cy="328.972" r=".76" gradientTransform="matrix(545.6736 0 0 528.3113 100439.305 -173525.125)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#442f55" stop-opacity=".98"/><stop offset="1" stop-color="#12002c"/></radialGradient><path d="M24.803 155.549h545.674v530.792H24.803V155.549z" fill="url(#a)"/><path d="M24.803 155.549h545.674v530.792H24.803V155.549zM0 711.145h595.28V130.746H0v580.399zm421.16-300.617c12.649 0 17.114 0 18.354-.496 0-1.736.496-2.977.496-4.217 0-13.394-6.449-38.197-32.244-38.197-23.812 0-33.98 20.834-36.461 42.91h49.855zm-50.35 33.98c.496 33.485 16.37 56.056 54.071 56.056 14.634 0 27.283-1.983 40.43-7.688 1.736-.744 2.977-.496 2.977 1.736v31.004c0 2.48-.744 3.721-2.48 4.961-13.146 6.448-29.517 9.425-49.855 9.425-65.48 0-90.036-48.366-90.036-102.189 0-58.536 30.261-106.406 83.588-106.406 54.071 0 72.922 45.39 72.922 82.347 0 11.906-.744 21.579-1.984 26.292-.496 1.984-1.24 2.729-3.225 3.225-4.961.744-19.595 1.735-41.422 1.735H370.81v-.498zm-132.945-25.299c-6.945-27.532-23.812-87.556-30.013-116.576h-.496c-5.208 29.02-18.851 78.13-29.02 116.576h59.529zm-69.699 40.182l-19.594 74.162c-.496 1.983-1.24 2.728-3.721 2.728H108.39c-2.48 0-2.977-.744-2.48-3.72l70.441-246.298c1.24-4.464 1.984-7.937 2.48-20.338 0-1.736.744-2.48 1.984-2.48h52.087c1.736 0 2.48.496 2.977 2.48l78.874 267.132c.496 1.983 0 3.224-1.984 3.224h-40.925c-1.984 0-3.225-.744-3.721-2.479l-20.339-74.41h-79.618z" fill="#d8a1ff"/></svg>
+        <svg width="70.279px" height="70.279px" viewBox="0 123.30600000000001 595.279 595.279" xmlns="http://www.w3.org/2000/svg"><radialGradient id="a" cx="-183.69" cy="328.972" r=".76" gradientTransform="matrix(545.6736 0 0 528.3113 100439.305 -173525.125)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#423325" stop-opacity=".98"/><stop offset="1" stop-color="#1c0a00"/></radialGradient><path d="M24.803 155.549h545.674v530.792H24.803V155.549z" fill="url(#a)"/><path d="M24.803 155.549h545.674v530.792H24.803V155.549zM0 711.145h595.28V130.746H0v580.399zm389.908-373.539c0-1.984.744-2.977 2.977-2.977h38.941c1.983 0 2.976.744 2.976 2.977v195.699c0 1.983-.496 2.976-2.976 2.976h-38.445c-2.48 0-3.225-1.24-3.225-3.224V337.606h-.248zm-2.728-56.304c0-15.874 11.161-25.299 25.3-25.299 15.13 0 25.299 10.169 25.299 25.299 0 16.37-10.665 25.299-25.795 25.299-14.387.001-24.804-8.929-24.804-25.299zM275.565 419.209c-6.944-27.532-23.314-87.556-29.516-116.576h-.496c-5.209 29.02-18.354 78.13-28.771 116.576h58.783zm-68.953 40.182l-19.595 74.41c-.496 1.983-1.24 2.479-3.72 2.479h-36.461c-2.48 0-2.977-.744-2.48-3.72l70.441-246.546c1.24-4.464 1.984-8.433 2.48-20.586 0-1.736.744-2.48 1.984-2.48h52.087c1.736 0 2.48.496 2.977 2.48l78.874 267.628c.496 1.983 0 3.224-1.984 3.224h-41.174c-1.984 0-3.225-.496-3.72-2.231l-20.339-74.658h-79.37z" fill="#ff7f18"/></svg>
+        
+    </div>
+
+
+
+</section>
+
+<section id="Portfolio" class="Portfolio">
+  <h1 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 35px";>My Works</h1>
+  <br>
+  <br>
+  <br>
+
+  <div class="polaroid2">
+    
+    <br>
+           <a href="ინფორმაცია.html.html" target="_blank"> <img class="img" src="dog.jpg" width="400px" height="350px" > </a>
+           <br>
+           <br>
+           <div class="container">
+            <br> <br>
+            <h2 style="text-align:center;"  style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"style="text-shadow: pink;">Information About Pitbulls</h2>
+           </div>
+           </div>    
+  
+
+</section>
+
+<section id="Hobbies" class="Hobbies">
+  <header></header>
+  <article>
+    <code>
+      <div class="grid-cont">
+        <div class="grid-item6">
+          <img src="Hobbies.jpg" alt="Hobbies"  width="300px" weight="300px" align="" style= border-radius:50% ; class="img1";>
+          <div class="overlay">Walking With My Dogs</div>
+        </div>
+       
+        
+
+
+        <div class="grid-item6">
+          <img src="Photo.png" alt="Photo"  width="300px" weight="300px" align="" style= border-radius:50% ; class="img1";>
+          <div class="overlay">Photography</div>
+        </div>
+        
+
+        
+       
+
+        <div class="grid-item6">
+          <img src="travel.png" alt="Hobbies"  width="300px" weight="300px" align="" style= border-radius:50% ; class="img1";>
+          <div class="overlay">Traveling</div>
+        </div>
+      
+
+
+        <div class="grid-item6">
+          <img src="surfing.png" alt="Hobbies"  width="300px" weight="300px" align="" style= border-radius:50% ; class="img1";>
+          <div class="overlay"> Surfing </div>
+        </div>
+    
+
+        <div class="grid-item6">
+          <img src="read.jpg" alt="Hobbies"  width="300px" weight="300px" align="" style= border-radius:50% ; class="img1";>
+          <div class="overlay">Reading</div>
+        </div>
+
+
+        <div class="grid-item6">
+          <img src="programming.png" alt="Hobbies"  width="350px" weight="350px" align="" style= border-radius:50% ; class="img1";>
+          <div class="overlay">Programming & Create Animation</div>
+        </div>
+
+
+        </div>
+      
+      </code>
+    
+  </article>
+  
+</section>
+
+
+<section id="FunFacts" class="FunFacts">
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div class="container">
+ 
+    <div class="card-4" style="width:50%">
+      
+
+      <div class="container">
+        <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"; font-size="32px";>Reading and Rate it </h2>
+        <hr>
+        <div class="grid">
+          <div class="grid-myitem">
+        <img src="twin.jpg" alt="Avatar" class="" style="width:100px">
+          </div>
+          <div class="grid-myitem">
+        <p style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif" ; font-size="32px" > I have twin. We were very similar to each other as children . <br>
+              I won one of the good projects and anchorwoman <br> handed   the award instead for my twin . &#128512; &#128512;</p><br>
+          </div>
+        </div>
+              <div class="form-group">
+                <div class="col-md-4 inputGroupContainer">
+                <div class="input-group">
+                <span class="input-group-addon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-emoji-smile" viewBox="0 0 16 16">
+                  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                  <path d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm4 0c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5z"/>
+                </svg></span>
+                 <select class="form-control" id="rate">
+                    <option value="1star">1</option>
+                    <option value="2stars">2</option>
+                    <option value="3stars">3</option>
+                    <option value="4stars">4</option>
+                    <option value="5stars">5</option>
+                  </select>
+                  </div>
+                </div>
+              </div>
+      </div>
+        
+      
+    </div>
+  </div>
+
+
+</section>
+
+
+<section id="review" class="review">
+    <h2 id="fh2"> I APPRECIATE YOUR REVIEW!</h2>
+    <h5 id="fh6">Your review will help me to improve my web quality .</h5>
+
+
+<form id="feedback" action="">
+  <div class="pinfo">Your personal info</div>
+  
+<div class="form-group">
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="fa fa-user"></i></span>
+  <input  name="name" placeholder="Tika Okropiridze" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<div class="form-group">
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+    <input name="email" type="email" class="form-control" placeholder="tika.okropiridze@gmail.com">
+     </div>
+  </div>
+</div>
+
+
+ <div class="pinfo">Rate me</div>
+  
+
+<div class="form-group">
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="fa fa-heart"></i></span>
+   <select class="form-control" id="rate">
+      <option value="1star">1</option>
+      <option value="2stars">2</option>
+      <option value="3stars">3</option>
+      <option value="4stars">4</option>
+      <option value="5stars">5</option>
+    </select>
+    </div>
+  </div>
+</div>
+
+ <div class="pinfo">Write your feedback.</div>
+  
+
+<div class="form-group">
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="fa fa-pencil"></i></span>
+  <textarea class="form-control" id="review" rows="3"></textarea>
+ 
+    </div>
+  </div>
+</div>
+
+ <button type="submit" class="btn btn-primary">Submit</button>
+
+
+</form>
+</section>
+
+
+
+
+<footer class="footer">
+    <p class="copyright"> By Tamar Okropiridze © 2022</p>
+</footer>
+
+
+</body>
+</html>
